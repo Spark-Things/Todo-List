@@ -18,6 +18,7 @@
   flex-direction: column;
   margin-right: 15px;
   border-radius: 10px;
+  margin-top: 15px;
   transition: all .6s ease-out;
 }
 .card-wrapper:hover{
@@ -64,4 +65,13 @@
   flex-wrap: wrap;
   background-color: #F6F7F8;
   padding : 40px 100px;
+}
+@media screen and (max-width : 800px) {
+  .card-wrapper:hover{
+    width: 300px;
+    height: 300px;
+    border: 1px #cacaca solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 }
